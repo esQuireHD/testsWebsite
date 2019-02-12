@@ -1,0 +1,85 @@
+#wrapper {
+	display: flex;
+	align-items: center;
+	width: 500px;
+	height: 400px;
+	margin: auto;
+}
+
+#data {
+	width: 250px;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+}
+
+#yourName {
+	width: 200px;
+	margin: 10px;
+}
+
+#selectTest {
+	width: 200px;
+	margin: 10px;
+}
+
+#start {
+	width: 80px;
+	height: 30px;
+	margin: 20px;
+	background-color: olive;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.question {
+	display: inline-block;
+	width: 100px;
+	padding: 10px 0 10px 0;
+}
+
+@media screen and (max-width: 450px) {
+	.question {
+		width: 100%;
+	}
+}
+
+.next {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+}
+
+.next div {
+	width: 80px;
+	height: 30px;
+	background-color: blue;
+	border: 1px solid black;
+	border-radius: 5px;
+	line-height: 30px;
+}
+
+#next {
+	width: 80px;
+	height: 30px;
+	margin: 20px;
+	background-color: olive;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#progressBar {
+	display: inline-block;
+	width: 200px;
+	height: 20px;
+	margin: 10px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#fillBar {
+	width: 0%;
+	height: 20px;
+	background-color: gray;
+}
